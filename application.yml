@@ -1,13 +1,12 @@
 spring:
-  jdbc:
-   datasource:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      password: root
-      url: jdbc:mysql:///ISH-DB
-      username: root
+  datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     password: root
+     url: jdbc:mysql:///ISH-DB
+     username: root
   jpa:
-      database-platform: org.hibernate.dialect.MYSQL8Dialect
-      hibernate:
-      show-sql: true
-        ddl-auto: update
+    database-platform: org.hibernate.dialect.MYSQL8Dialect
+    hibernate:
+    show-sql: true
+      ddl-auto: update
        

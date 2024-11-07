@@ -9,7 +9,5 @@ spring:
     hibernate:
     show-sql: true
        ddl-auto: update
-  autoconfigure:
-    exclude:
-    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration   
+  
        
